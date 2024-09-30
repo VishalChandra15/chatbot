@@ -17,3 +17,21 @@ This is a simple chatbot implementation using Google's `google.generativeai` (Ge
 ```bash
 git clone https://github.com/your-username/gemini-ai-chatbot.git
 cd gemini-ai-chatbot
+```
+
+### 2.  Install dependencies
+- Install the required Python libraries by running:
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Set up your API key
+- In python script (`main.py`),replace `"ADD_GEMINI _KEY"` with your actual Gemini API key"
+```bash
+api_key = "your_actual_api_key_here"
+```
+### 4. Run the chatbot
+-To start the chatbot,run:
+```bash
+python gemini_chatbot.py
+```
