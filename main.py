@@ -1,7 +1,6 @@
 import os
 import google.generativeai as genai
 
-# Fetch API key from environment variable GEMINI_API_KEY
 api_key = "ADD_GEMINI_API_KEY"
 if not api_key:
     raise ValueError("API key is missing. Set GEMINI_API_KEY environment variable.")
